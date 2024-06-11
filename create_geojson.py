@@ -125,5 +125,5 @@ def create_combined_geojson(counties_input_file, fertilizer_input_files, data_ou
 
 # Call function to combine counties geojson with fertilizer CSV data
 # Will write output to 'counties_with_fertilizer.json' and 'counties_with_fertilizer_summary.json'
-fertilizer_input_files = ['fert-farm-1987-2017.txt', 'fert-nonfarm-1987-2017.txt', 'fert-total-1987-2017.txt',  'fert-total-1950-1982-standardized.txt']
-create_combined_geojson('counties_filtered.json', fertilizer_input_files, 'counties_with_fertilizer.json', 'counties_with_fertilizer_summary.json')
+fertilizer_input_files = ['data/fert-farm-1987-2017.txt', 'data/fert-nonfarm-1987-2017.txt', 'data/fert-total-1987-2017.txt',  'data/fert-total-1950-1982-standardized.txt']
+create_combined_geojson('data/counties_filtered.json', fertilizer_input_files, 'data/counties_with_fertilizer.json', 'data/counties_with_fertilizer_summary.json')

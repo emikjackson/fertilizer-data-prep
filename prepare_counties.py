@@ -22,5 +22,5 @@ def prepare_counties(counties_input, counties_output):
     with open(counties_output, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(filtered_counties_geojson))
 
-
-prepare_counties('counties.json', 'counties_filtered.json')
+# Create new 'counties_filtered.json' file from raw counties geoJSON input
+prepare_counties('data/counties.json', 'data/counties_filtered.json')

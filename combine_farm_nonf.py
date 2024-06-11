@@ -79,4 +79,4 @@ def combine_farm_nonf(farm_input_file, nonf_input_file, output_file):
         csv_writer.writeheader()
         csv_writer.writerows(total_rows)
 
-combine_farm_nonf('fert-farm-1987-2017.txt', 'fert-nonfarm-1987-2017.txt', 'fert-total-1987-2017.txt')
+combine_farm_nonf('data/fert-farm-1987-2017.txt', 'data/fert-nonfarm-1987-2017.txt', 'data/fert-total-1987-2017.txt')
