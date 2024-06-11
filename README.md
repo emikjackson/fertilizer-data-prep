@@ -20,4 +20,4 @@ https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-
 
 ## Notes
 
-- `fert-total-1950-1982-standardized.txt` is the same as `fert-total-1950-1982.txt` except column have been reformatted to match `totalfert<F>-kg-<year>` format.
+- `fert-total-1950-1982-standardized.txt` is the same as `fert-total-1950-1982.txt` except column names have been reformatted to match `totalfert<F>-kg-<year>` format.
