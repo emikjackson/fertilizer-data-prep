@@ -1,6 +1,6 @@
 # Fertilizer Data Prep
 
-Python scripts to prepare data for fertilizer map application.
+Python scripts to prepare data for [fertilizer map application](https://github.com/emikjackson/fertilizer-map).
 
 ## Sources
 
